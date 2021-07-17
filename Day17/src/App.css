@@ -1,0 +1,27 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 2px 3px 9px -1px black;
+}
+.card{
+    width: 90%;
+    background-color: olivedrab;
+    padding: 5px;
+    margin: 9px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px -1px rgb(24, 37, 3);
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+}
